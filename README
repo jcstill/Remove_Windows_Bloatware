@@ -1,0 +1,35 @@
+This software comes with NO warranty. Use responsibly.
+I AM NOT responsible for any data loss or damage to your computer.
+
+
+I do not claim to have written a lot of this. see these links for where I got a lot of this material
+(better yet follow them if you don't know what you are doing)
+
+https://github.com/adolfintel/Windows10-Privacy
+https://github.com/W4RH4WK/Debloat-Windows-10
+https://github.com/Disassembler0/Win10-Initial-Setup-Script
+https://github.com/kophe/win10_debloat
+
+https://github.com/shiitake/win6x_registry_tweak - Tool that gets auto downloaded (and deleted when the script exits)
+
+
+
+
+You need to make sure that the computer is FULLY updated.
+This includes Windows Updates as well as Microsoft store updates.
+You should check for updates in both places multiple times BEFORE running the Uninstall.ps1 file
+
+NOTE: If you remove the Microsoft Windows Store, it is permanent and cannot be reinstalled. This means that if you
+need an app from there, download it before running the script. Or just don't uninstall the store. 
+
+To actually run the script:
+1. Open Power Shell as Admin
+2. You need to allow powershell scripts to run as windows disables them by default. Simply run this command:
+	Set-ExecutionPolicy Unrestricted -Scope CurrentUser
+3. Navigate to the directory this script is in
+	cd <DIR>
+4. Run the script:
+	.\Uninstall.ps1
+5. The script may give you additional instructions. please follow them.
+
+NOTE: If you don't know what a program or app is or does either google it or leave it installed.
